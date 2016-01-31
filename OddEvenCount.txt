@@ -1,0 +1,26 @@
+//Arjun C. Araneta
+//(Ruby Tutorial) Learn how to Program – Counting Odd and Even Numbers
+
+//https://morecodes.wordpress.com/
+
+/*
+Write a program to count the number of even and odd numbers 
+from a series of numbers from five(5) number inputs of the user.
+*/
+
+evenCount = 0
+oddCount = 0
+
+for i in 0..4
+	print "Enter a number: ";
+	numInput = gets.to_i;
+	
+	if numInput % 2 == 0
+		evenCount = evenCount + 1
+	else
+		oddCount = oddCount + 1
+	end
+end
+
+print("There are ", evenCount , " even numbers\n")
+print("There are ", oddCount , " odd numbers\n")
