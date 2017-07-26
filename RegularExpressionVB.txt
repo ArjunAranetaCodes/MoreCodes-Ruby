@@ -1,6 +1,0 @@
-#Write a program that checks if the string contains all digits using Regular Expression.
-
-value = "12345"
-re = /\d+/
-
-print value.match re
