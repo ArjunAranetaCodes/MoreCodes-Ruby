@@ -1,5 +1,5 @@
 # MoreCodes - Ruby Programming Problems
-This repository is for Ruby codes of my blog: https://more-codes.com/
+This repository is for Ruby codes of my blog: http://more-codes.com/
 
 - - - -
 ### Ruby Programming Easy Problems
